@@ -4,15 +4,15 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "19890227"))
-	API_HASH = os.environ.get("API_HASH", "ad2685e918be5a89c31e991448262e63")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5789147786:AAEhgveswaiATFA6K-C8kKIR-gVA8GoV3EI") 
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "HiFii_bot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001703513176"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1540312271"))
+	API_ID = int(os.environ.get("API_ID", "26364421"))
+	API_HASH = os.environ.get("API_HASH", "72c7598f883fa1b077358d6c86071654")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5849729866:AAH18KITKTZ-RUgahTabwPrqlYEo6Tzpu7o") 
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "HiFiii_bot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001642275581"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1546983881"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://random:random@cluster0.tb63h.mongodb.net/cluster0?retryWrites=true&w=majority") 
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001727777285")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001579047604")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001736636305")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001642275581")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -34,7 +34,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 👥 **Support Group:** [DeepSea](https://t.me/dummypr)
 
-📢 **Updates Channel:** [DeepSea](https://t.me/+cnkP_zWjuOU3YTQx)
+📢 **Updates Channel:** [Namo](https://t.me/+5qnoPfao9KE2ZjMx)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @JAsuran123
